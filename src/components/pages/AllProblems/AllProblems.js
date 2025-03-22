@@ -31,7 +31,9 @@ import {
   Divider,
   Card,
   CardContent,
-  InputAdornment
+  InputAdornment,
+  FormControlLabel,
+  Checkbox
 } from '@mui/material';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
@@ -44,10 +46,14 @@ import CloseIcon from '@mui/icons-material/Close';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { useApp } from '../../../contexts/AppContext';
 import { 
-  formatDateJP, 
+  formatDate, 
   formatDateWithDayOfWeekJP, 
   getIntervalTextJP,
-  stripTime
+  stripTime,
+  isToday,
+  isPast,
+  isFuture,
+  formatDateJP
 } from '../../../utils/dateUtils';
 import { UnderstandingLevel } from '../../../models/types';
 
