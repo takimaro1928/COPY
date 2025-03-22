@@ -34,7 +34,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import HelpIcon from '@mui/icons-material/Help';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import { UnderstandingLevel } from '../../../models/types';
+import { UnderstandingLevel } from '../../../models/types.js'; 
 import { useApp } from '../../../contexts/AppContext';
 import { 
   formatDateJP, 
