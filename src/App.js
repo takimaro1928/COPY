@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -8,14 +6,14 @@ import { AppProvider } from './contexts/AppContext';
 import Layout from './components/layout/Layout';
 import TodayProblems from './components/pages/TodayProblems/TodayProblems.js';
 import AllProblems from './components/pages/AllProblems/AllProblems.js';
-import SearchPage from './components/pages/Search/SearchPage.js';
 import ScheduleView from './components/pages/ScheduleView/ScheduleView.js';
 import Statistics from './components/pages/Statistics/Statistics.js';
 import VagueProblems from './components/pages/VagueProblems/VagueProblems.js';
-import DataManagement from './components/pages/DataManagement/DataManagement.js';
 import Settings from './components/pages/Settings/Settings.js';
 import NotFound from './components/pages/NotFound/NotFound.js';
 import InitialSetup from './components/pages/InitialSetup/InitialSetup.js';
+import DataManagement from './components/pages/DataManagement/DataManagement.js';
+import SearchPage from './components/pages/Search/SearchPage.js';
 
 // テーマの設定
 const theme = createTheme({
